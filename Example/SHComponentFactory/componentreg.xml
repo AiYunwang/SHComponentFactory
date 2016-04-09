@@ -1,0 +1,6 @@
+<componentreg>
+    
+    <!-- 测试页面 -->
+    <component name="testViewController" class="TestViewController" />
+
+</componentreg>
