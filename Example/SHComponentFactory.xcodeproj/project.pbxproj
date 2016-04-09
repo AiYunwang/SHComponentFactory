@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A85924073411A7CCEF244553 /* Pods_SHComponentFactory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD0BBB472C5329D27FE1939 /* Pods_SHComponentFactory_Tests.framework */; };
+		A87494251CB900020052E54A /* componentreg.xml in Resources */ = {isa = PBXBuildFile; fileRef = A87494241CB900020052E54A /* componentreg.xml */; };
+		A87494281CB900160052E54A /* SHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87494271CB900160052E54A /* SHTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		7EB50FEBA4496C286521131F /* Pods-SHComponentFactory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHComponentFactory_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHComponentFactory_Example/Pods-SHComponentFactory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		93E2830DD774D2BA569D98D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A87494241CB900020052E54A /* componentreg.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = componentreg.xml; sourceTree = "<group>"; };
+		A87494261CB900160052E54A /* SHTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHTestViewController.h; sourceTree = "<group>"; };
+		A87494271CB900160052E54A /* SHTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTestViewController.m; sourceTree = "<group>"; };
 		ABD0BBB472C5329D27FE1939 /* Pods_SHComponentFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHComponentFactory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA39FE14304540D2483F78A8 /* Pods-SHComponentFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHComponentFactory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHComponentFactory_Tests/Pods-SHComponentFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD2DE271EB5313A348E42305 /* SHComponentFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHComponentFactory.podspec; path = ../SHComponentFactory.podspec; sourceTree = "<group>"; };
@@ -135,6 +140,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SHViewController.h */,
 				6003F5A6195388D20070C39A /* SHViewController.m */,
+				A87494261CB900160052E54A /* SHTestViewController.h */,
+				A87494271CB900160052E54A /* SHTestViewController.m */,
+				A87494241CB900020052E54A /* componentreg.xml */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87494251CB900020052E54A /* componentreg.xml in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -393,6 +402,7 @@
 				6003F59E195388D20070C39A /* SHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A87494281CB900160052E54A /* SHTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
