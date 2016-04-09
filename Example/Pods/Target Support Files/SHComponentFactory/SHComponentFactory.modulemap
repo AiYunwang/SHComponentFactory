@@ -1,0 +1,6 @@
+framework module SHComponentFactory {
+  umbrella header "SHComponentFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}
