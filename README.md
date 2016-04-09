@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
--	[详细使用文档](https://github.com/yaoqi-github/SHComponentFactory/wiki/%E7%BB%84%E4%BB%B6%E5%8C%96%E6%96%B9%E6%A1%88%E8%A7%A3%E5%86%B3%E6%8E%A7%E5%88%B6%E5%99%A8%E8%B7%B3%E8%BD%AC%E9%97%AE%E9%A2%98)
+-	[Details document](https://github.com/yaoqi-github/SHComponentFactory/wiki/%E7%BB%84%E4%BB%B6%E5%8C%96%E6%96%B9%E6%A1%88%E8%A7%A3%E5%86%B3%E6%8E%A7%E5%88%B6%E5%99%A8%E8%B7%B3%E8%BD%AC%E9%97%AE%E9%A2%98)
 
 ## Installation
 
